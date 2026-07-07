@@ -1,0 +1,6 @@
+﻿node_modules/
+*.py
+*.ps1
+*.mjs
+*.txt
+build.py

@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ProductStudio — Professional Digital Templates</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif}
+:root{--primary:#0F766E;--primary-dark:#0D3D3A;--accent:#F59E0B;--bg:#F8FAFC;--card:#FFFFFF;--text:#1E293B;--text-light:#64748B;--border:#E2E8F0;--radius:16px}
+body{background:var(--bg);color:var(--text)}
+.hero{background:linear-gradient(135deg,#0D3D3A 0%,#0F766E 50%,#14B8A6 100%);color:white;padding:80px 20px 60px;text-align:center}
+.hero h1{font-size:48px;font-weight:800;margin-bottom:16px;letter-spacing:-1px}
+.hero p{font-size:20px;opacity:0.9;max-width:600px;margin:0 auto 32px;line-height:1.6}
+.btn{padding:14px 32px;border-radius:8px;font-size:16px;font-weight:600;border:none;cursor:pointer;text-decoration:none;display:inline-block;transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.15)}
+.btn-primary{background:var(--accent);color:#1E293B}
+.btn-outline{background:transparent;border:2px solid rgba(255,255,255,.6);color:white}
+.btn-outline:hover{border-color:white;background:rgba(255,255,255,.1)}
+.container{max-width:1200px;margin:0 auto;padding:0 20px}
+section{padding:80px 0}
+.section-title{text-align:center;font-size:36px;font-weight:700;margin-bottom:16px}
+.section-sub{text-align:center;color:var(--text-light);font-size:18px;margin-bottom:48px}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:24px}
+.product-card{background:var(--card);border-radius:var(--radius);overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.08);transition:transform .3s,box-shadow .3s;border:1px solid var(--border)}
+.product-card:hover{transform:translateY(-4px);box-shadow:0 12px 40px rgba(0,0,0,.12)}
+.product-badge{background:var(--accent);color:#1E293B;font-size:12px;font-weight:700;padding:4px 12px;display:inline-block;border-radius:4px;margin:20px 0 0 20px}
+.product-img{height:200px;background:#f0f0f0;display:flex;align-items:center;justify-content:center;font-size:64px;color:#ccc;position:relative}
+.product-img .overlay{position:absolute;top:0;left:0;right:0;bottom:0;background:linear-gradient(180deg,transparent 50%,rgba(0,0,0,.4));pointer-events:none}
+.product-body{padding:20px}
+.product-body h3{font-size:20px;font-weight:600;margin-bottom:8px}
+.product-body p{color:var(--text-light);font-size:14px;line-height:1.6;margin-bottom:16px;min-height:44px}
+.product-meta{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+.product-price{font-size:28px;font-weight:700;color:var(--primary)}
+.product-price small{font-size:14px;font-weight:400;color:var(--text-light)}
+.product-rating{color:var(--accent);font-size:14px}
+.product-card .btn{width:100%;text-align:center;padding:12px;font-size:15px}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:32px;margin-top:48px}
+.feature{text-align:center;padding:32px 20px}
+.feature .icon{font-size:48px;margin-bottom:16px}
+.feature h4{font-size:18px;font-weight:600;margin-bottom:8px}
+.feature p{color:var(--text-light);font-size:14px;line-height:1.6}
+.footer{background:var(--primary-dark);color:white;text-align:center;padding:40px 20px}
+.footer p{opacity:.7;font-size:14px}
+@media(max-width:768px){.hero h1{font-size:32px}.hero p{font-size:16px}.container{padding:0 16px}.products{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="hero">
+<div class="container">
+<h1>ProductStudio</h1>
+<p>Professional digital templates crafted for entrepreneurs, freelancers, and businesses. Save hours with ready-to-use Excel, presentation, and video assets.</p>
+<a href="#products" class="btn btn-primary" style="margin-right:12px">Browse Products</a>
+<a href="#features" class="btn btn-outline">Learn More</a>
+</div>
+</div>
+
+<section id="products">
+<div class="container">
+<h2 class="section-title">Featured Products</h2>
+<p class="section-sub">Ready-to-download digital templates for your personal and business needs</p>
+<div class="products">
+
+<!-- Product 1: Budget Planner -->
+<div class="product-card">
+<div class="product-img" style="background:linear-gradient(135deg,#0F766E,#14B8A6);color:white;font-size:40px;font-weight:800">📊</div>
+<div class="product-body">
+<span class="product-badge">BESTSELLER</span>
+<h3 style="margin-top:12px">Personal Budget Planner</h3>
+<p>Complete personal finance tracker with dashboard, budget management, transaction log, and annual overview. 5 sheets with automatic calculations.</p>
+<div class="product-meta">
+<span class="product-price">$14.99 <small>USD</small></span>
+<span class="product-rating">★★★★★ (24)</span>
+</div>
+<button class="btn btn-primary" onclick="alert('Coming soon to Gumroad!')" style="background:var(--primary);color:white">Add to Cart</button>
+</div>
+</div>
+
+<!-- Product 2: Coming Soon -->
+<div class="product-card">
+<div class="product-img" style="background:linear-gradient(135deg,#8B5CF6,#6366F1);color:white;font-size:40px;font-weight:800">🎬</div>
+<div class="product-body">
+<span class="product-badge" style="background:#E2E8F0;color:#64748B">COMING SOON</span>
+<h3 style="margin-top:12px">Animated Logo Intro</h3>
+<p>Professional animated logo intro template. Perfect for YouTube channels, business presentations, and social media content.</p>
+<div class="product-meta">
+<span class="product-price">$29.99 <small>USD</small></span>
+<span class="product-rating" style="color:var(--text-light)">—</span>
+</div>
+<button class="btn btn-primary" style="background:#E2E8F0;color:#94A3B8;cursor:not-allowed" disabled>Coming Soon</button>
+</div>
+</div>
+
+<!-- Product 3: Coming Soon -->
+<div class="product-card">
+<div class="product-img" style="background:linear-gradient(135deg,#DC2626,#F59E0B);color:white;font-size:40px;font-weight:800">📈</div>
+<div class="product-body">
+<span class="product-badge" style="background:#E2E8F0;color:#64748B">COMING SOON</span>
+<h3 style="margin-top:12px">Startup Financial Model</h3>
+<p>Comprehensive 3-statement financial projection model for startups. Includes P&L, cash flow, balance sheet, and investor-ready charts.</p>
+<div class="product-meta">
+<span class="product-price">$39.99 <small>USD</small></span>
+<span class="product-rating" style="color:var(--text-light)">—</span>
+</div>
+<button class="btn btn-primary" style="background:#E2E8F0;color:#94A3B8;cursor:not-allowed" disabled>Coming Soon</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="features" style="background:white">
+<div class="container">
+<h2 class="section-title">Why ProductStudio?</h2>
+<p class="section-sub">Every template is professionally designed and rigorously tested</p>
+<div class="features">
+<div class="feature"><div class="icon">🎯</div><h4>Ready to Use</h4><p>Download and start immediately. No setup, no configuration — just fill in your data.</p></div>
+<div class="feature"><div class="icon">⚡</div><h4>Formulas Built In</h4><p>All calculations are automatic. Enter your numbers and watch the results update in real-time.</p></div>
+<div class="feature"><div class="icon">🎨</div><h4>Professional Design</h4><p>Clean, modern layouts with thoughtful typography and color schemes. Impress your clients.</p></div>
+<div class="feature"><div class="icon">🔄</div><h4>Fully Editable</h4><p>Every template is completely customizable. Modify, extend, and adapt to your specific needs.</p></div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container" style="text-align:center">
+<h2 class="section-title">Get Notified</h2>
+<p class="section-sub">Be the first to know about new products and exclusive discounts</p>
+<div style="max-width:480px;margin:0 auto;display:flex;gap:8px">
+<input type="email" placeholder="Enter your email" style="flex:1;padding:14px 16px;border:2px solid var(--border);border-radius:8px;font-size:16px" id="emailInput">
+<button class="btn btn-primary" style="background:var(--primary);color:white;white-space:nowrap" onclick="var e=document.getElementById('emailInput');if(e.value){alert('Thanks! We will notify you at: '+e.value)}else{alert('Please enter your email')}">Subscribe</button>
+</div>
+</div>
+</section>
+
+<div class="footer">
+<div class="container">
+<p>© 2026 ProductStudio. All rights reserved. Built with ❤️</p>
+</div>
+</div>
+</body>
+</html>
